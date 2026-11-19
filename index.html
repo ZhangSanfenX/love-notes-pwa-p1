@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://love-anniversary-pwa.pages.dev; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="theme-color" content="#fff9f4"><meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="恋爱纪念日">
+  <meta name="description" content="记录恋爱纪念日、生日、倒数日和共享日记。">
+  <title>恋爱纪念日</title>
+  <link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./assets/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon-180.png"><link rel="stylesheet" href="./app.css">
+  <script src="./vendor/fflate.js" defer></script><script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div id="app"><p class="loading">正在打开恋爱纪念日…</p></div>
+  <dialog id="modal" aria-label="编辑记录"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>请开启 JavaScript，以使用恋爱纪念日。</noscript>
+</body></html>
