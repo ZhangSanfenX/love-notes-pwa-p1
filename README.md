@@ -1,4 +1,4 @@
-# 恋爱纪念日 · 普适版 PWA
+# 恋爱纪念日 · 普适版
 
 [打开恋爱纪念日](https://zhangsanfenx.github.io/love-anniversary-pwa/)
 
